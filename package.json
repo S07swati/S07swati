@@ -1,11 +1,12 @@
 {
   "engines": {
-    "node":"22.16.0"
+    "node": "22.16.0"
   },
   "name": "tour-and-travel",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,7 +14,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "cloudinary": "^2.6.1",
+    "cloudinary": "^1.30.0",
     "connect-flash": "^0.1.1",
     "connect-mongo": "^5.1.0",
     "dotenv": "^16.5.0",
